@@ -17,6 +17,15 @@ public class Main{
 		al.add(s2);
 		Student s3 = new Student (103,"choi",23);
 		al.add(s3);
+		al.add(new Student(4,"cho", 24));
+		al.add(new Student(5,"hwang", 21));
+		al.add(new Student(6,"gang", 20));
+		al.add(new Student(7,"kwon", 20));
+		al.add(new Student(8,"koo", 25));
+		al.add(new Student(9,"bae", 27));
+		al.add(new Student(10,"hong", 21));
+
+		
 
 		
 		Collections.sort(al);
